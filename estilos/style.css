@@ -52,7 +52,66 @@ section#login > div#foto {
     height: 200px;
 }
 
+div.campo {
+    display: block;
+    background-color: #2D3E40;
+    margin: 5px 0px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
 section#login > div#formulario {
     display: block;
     padding: 10px;
 }
+
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p {
+    font-size: 0.8em;
+}
+
+form input[type='submit'] {
+    display: block;
+    font-size: 1em;
+    margin: auto;
+    width: 100%;
+    border: none;
+    background-color: #387373;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+
+form input[type='submit']:hover {
+    background-color: #254b4b;
+}
+
+form a.botao {
+    text-align: center;
+    display: block;
+    font-size: 1em;
+    margin: auto;
+    width: 100%;
+    border: 1px solid #387373;
+    background-color: white;
+    color: #387373;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+form a.botao:hover {
+    background-color: #254b4b;
+    color: white;
+}
+
+form > a.botao > span {
+    font-size: 1em;
+}
+
